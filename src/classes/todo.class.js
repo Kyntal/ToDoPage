@@ -12,7 +12,6 @@ export class Todo {
         return tempTodo;
     }
 
-
     constructor( tarea ) {
 
         this.tarea  = tarea;

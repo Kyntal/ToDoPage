@@ -1,6 +1,7 @@
 import { Todo } from '../classes';
 import { todoList } from '../index'
 
+//Referencias en el HTML
 const divTodoList   = document.querySelector('.todo-list');
 const txtInput      = document.querySelector('.new-todo');
 const btnBorrar     = document.querySelector('.clear-completed');
@@ -25,7 +26,7 @@ export const crearTodoHtml = ( todo ) => {
 
     divTodoList.append( div.firstElementChild );
 
-    return div;
+    return div.firstElementChild;
 }
 
 
